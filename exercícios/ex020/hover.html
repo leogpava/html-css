@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .d1 > p {
+            display: none;
+        }
+
+        .d1:hover > p { /* aqui, p está sofrendo os efeitos da div (D1), que é o hover. Então quando passar em cima, eu setei uma pseudoclasse para efeitos especificos no P (nesse caso, é revelar o texto, antes escondido). */
+            display: block;
+            color: white;
+            background-color: red;
+        }
+
+        .d1:hover {
+            color: red;
+            font-size: larger;
+            transition: 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div class="d1">
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="html5.ico" type="image/x-icon">
+    <title>Hyperlinks</title>
+</head>
+<body>
+    <h1>Usando Links Externos</h1>
+    <p>Vídeo sobre <a href="https://www.youtube.com/watch?v=LeOVXQDsAIY&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=27" target="_blank" rel="external">Links e Âncoras em HTML5</a> </p> <!--Sempre use o códio a para links. NAO ESQUECE DE ESCREVEER DEPOIS DE FECHAR o > PLMDS AAAAAAAAAAAAA--> <!--O { target="_blank" rel="external" }serve para direcionar o usuário a outra aba, para que ele volte no seu site.-->
+    <h2>Usando Links Internos</h2>
+    <p>Essaa aqui é a primeira, veja a segunda a seguir <a href="pag002.html" rel="next">Página 2</a></p>
+    <h1>Links para Download</h1>
+    <ul>
+        <li><a href="livro/Conan.pdf" target="_blank" download="Conan.pdf" type="application.pdf">Baixar o livro em PDF</a></li>  <!--Pdf n vai pq o navegador reconhece-->
+        <li><a href="livro/CONAN.rar" type="application.zip">Livro compactado em ZIP</a></li> <!--Para saber o tipo de arquivo, vá ao IANA.org, tem uma lista-->
+    </ul>
+    <p>Você também pode acessar nossa página de noticias! <a href="noticias/pag003.html" rel="next" target="_self">Clique Aqui!</a></p> <!--O target SELF é usado para referir-se o link para abrir dentro da própria página-->
+</body>
+</html>

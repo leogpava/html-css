@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esses sites em dispositivos diferentes, ou simplesmente aumente e diminua o tamanho do navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/mid.png" type="image/png">
+        <img src="imagens/grande.png" alt="Foto Grande Flex">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Solta o Som DJ.</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/hero.mp3" type="audio/mpeg">
+        <p>Se nao for ce tá lascado irmao</p>
+    </audio>
+</body>
+</html>

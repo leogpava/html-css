@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1 {
+            background-color: lightblue;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue;
+            padding: 30px;
+            border-radius: 50px;
+            margin: auto;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+
+       h1:hover {
+        height: 325px;
+        width: 325px;
+        transition: 0.5s;
+        background-color: cadetblue;
+       }
+
+       a:hover {
+        border-width: 5px;
+        transition: 0.5s;
+       }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa Box-level</h1>
+    <p>Parágrafos também são box-level, mas os <a href="https://www.youtube.com/watch?v=rXF1okX0v9E" target="_blank">links são inline level</a></p>
+</body>
+</html>

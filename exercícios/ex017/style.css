@@ -1,0 +1,12 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+/* h1 com shorthand(nao precisa de virgula) */
+
+h1 {
+    font: bold 30px Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color:#06141B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+p {
+    text-indent: 20px;
+    color:  #CCD0CF;
+}
+
+.principal {
+    color: #4A5C6A;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    margin: 40px;
+}
+
+h1 {
+    color:  #CCD0CF
+}
+
+h2 {
+    color: #253745
+}
+
