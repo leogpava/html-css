@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens no Fundo</title>
+    <style>
+
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+            background-size: cover
+        }
+        .quadrado {
+            border: 2px solid black;
+            border-radius: 20px;
+            background-color: grey;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            transition: 0.5s;
+        }
+
+        div#q1 {
+            background-color: lightblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to top, red, yellow);
+        }
+
+        div#q3 {
+            background-image: url(imagens/pattern003.png);
+        }
+
+        .quadrado:hover {
+            width: 320px;
+            height: 320px;
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+     <div class="quadrado" id="q3">
+
+    </div>
+
+</body>
+</html>
