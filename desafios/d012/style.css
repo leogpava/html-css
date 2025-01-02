@@ -68,7 +68,7 @@ article.img > p {
     color: white;
     min-width: 400px;
     max-width: fit-content;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.466);
 }
 
 article.img {
