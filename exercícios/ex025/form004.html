@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Barrinha</h1>
+    <form action="cadastro.php" method="post">
+        <label for="inum">Número</label>
+    <input type="range" name="num" id="inum" min="0" max="10" value="5" oninput="ival.innerHTML = Number(inum.value)">
+    <output id="ival">5</output>
+    </form>
+
+    <h1>Calculadora Simples e Visual</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="n1">Número 1:</label>
+            <input type="number" name="n1" id="n1" min="0" max="100" required 
+            oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="n2">Número 2:</label>
+            <input type="number" name="n2" id="n2" min="0" max="100" required 
+            oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma:</label>
+            <output name="soma" id="isoma">0</output>
+        </p>
+
+    </form>
+</body>
+</html>
