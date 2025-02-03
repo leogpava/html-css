@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: bottom;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0px #323cfc
+    ;
+}

@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*Mobile FIrst - ESTILO 100% MOBILE*/
+
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3em;
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    html {
+        height: 100vh;
+    }
+
+    body {
+        background-color: black;
+        background-image: url(../imagens/back-phone.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    
+    main {
+        background-color: rgba(255, 255, 255, 0.836);
+        width: 80vw;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    img#phone {
+        display: show;
+    }
+    img#print {
+        display: none;
+    }
+    img#tablet {
+        display: none;
+    }
+    img#tv {
+        display: none;
+    }
+    img#pc {
+        display: none;
+    }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="estilos/medias.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>Menu</h1>
+        <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">  menu  </span>
+        <menu id="itens">
+            <li> <a href="#">Option 1</a> </li>
+            <li> <a href="#">Option 2</a> </li>
+            <li> <a href="#">Option 3</a> </li>
+            <li> <a href="#">Option 4</a> </li>
+        </menu>
+    </header>
+    <body>
+        <main>
+            <article>
+                <h2>Testando Media Queries</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta perferendis, fuga repellendus dolorum quo, facere, eaque odit id tempora autem velit. Ullam mollitia hic dignissimos! Alias quas dicta cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta perferendis, fuga repellendus dolorum quo, facere, eaque odit id tempora autem velit. Ullam mollitia hic dignissimos! Alias quas dicta cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta perferendis, fuga repellendus dolorum quo, facere, eaque odit id tempora autem velit. Ullam mollitia hic dignissimos! Alias quas dicta cumque.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, adipisci placeat nesciunt dolorem repellat cum aliquam, at aut eveniet harum expedita vero porro exercitationem sint libero obcaecati molestias omnis nisi.</p>
+            </article>
+        </main>
+        <script>
+            function clickMenu() {
+            let menu = document.getElementById("itens"); // Obtém o menu corretamente
+            if (menu.style.display == "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+        </script>
+    </body>
+</body>
+</html>

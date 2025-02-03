@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #323cfc;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0px #131ba8;
+}
