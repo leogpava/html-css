@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="estilos/medias.css" media="all">
 </head>
 <body>
-    <header>
+    <header onresize="mudouTamanho()">
         <h1>Menu</h1>
         <span class="material-symbols-outlined" id="burger" onclick="clickMenu()">  menu  </span>
         <menu id="itens">
@@ -28,6 +28,14 @@
             </article>
         </main>
         <script>
+            function mudouTamanho() {
+            let menu = document.getElementById("itens");
+                if(window.innerWidth >= 768) {
+                    menu.style.display = "block"
+                } else {menu.style.display = "none"     
+                }
+            }
+
             function clickMenu() {
             let menu = document.getElementById("itens"); // Obtém o menu corretamente
             if (menu.style.display == "block") {
@@ -36,6 +44,12 @@
                 menu.style.display = "block";
             }
         }
+
+        // Executa a função ao redimensionar a janela
+        window.addEventListener("resize", mudouTamanho);
+        
+        // Executa a função ao carregar a página
+        mudouTamanho();
         </script>
     </body>
 </body>

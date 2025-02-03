@@ -1,1 +1,36 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+
+    span#burger {
+        display: none;
+    }
+    menu {
+        display: block !important; /*se usar o !important, nao precisa fazer aquela porra em JS.*/
+        background-color: rgb(24, 24, 24);
+        padding: 8px;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    li > a {
+        color: white;
+        padding: 5px;
+        background-color: rgb(78, 78, 78);
+        text-align: center;
+        text-decoration: none;
+        transition: 0.3s;
+        border-radius: 10px;
+        border-top: none;
+    }
+    
+    li > a:hover {
+        background-color: rgb(241, 241, 241);
+        color: black;
+    }
+       
+
+
+}
